@@ -1,0 +1,238 @@
+/*  */
+
+.header-color{
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+/* LOGIN/SIGNUP */
+#qualification{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+
+}
+
+#grade{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+
+}
+input[type=text], input[type=password],input[type=email],textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color:  rgb(63,81,181);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .container {
+ 
+    padding: 16px;
+    max-width:600px;
+    margin:0 auto;
+    padding-top: 50px;
+    margin-top: 5px;
+    border-radius: 0.8em;
+    background: white;
+    /* border-bottom: gray dotted; */
+    border: 2px solid gray;
+    /* overflow: scroll; */
+  
+  }
+
+  /* Admin Dashboard */
+
+  .dashboard-items {
+    /* border: 4px solid black; */
+    padding: 20px 15px;
+    width: auto;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.one, .two {
+  text-align: center;
+
+    border:2px solid gray;
+    height: 320px ;
+    width: 320px ;
+    float: left;
+    position: absolute;
+}
+
+.one {
+    margin-right: 50px;
+    /* margin-left: 400px; */
+}
+
+
+
+            /* RENDERING-STUDENT/COMPANY-INFORMATION */
+
+.student-info-table{
+
+display: inline-block;
+margin-top: 50px;
+overflow-x:auto;
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+border: 1px solid #ddd;
+
+}
+
+
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	/* td:nth-of-type(1):before { content: "Student Name"; }
+	td:nth-of-type(2):before { content: "Email"; }
+	td:nth-of-type(3):before { content: "Qualification"; }
+	td:nth-of-type(4):before { content: "Grade"; }
+	td:nth-of-type(5):before { content: "resume"; } */
+
+}
+
+
+/* Job Vacancy styling */
+
+.vancancy-parrent h1{
+  text-align: center;
+padding-top: 10px;
+  font-size: 7vw;
+font-weight: bolder;
+text-decoration: underline #333;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 50px;
+  overflow: hidden;
+  margin-top: 10px;
+
+}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.back-btn{
+
+  margin-top: 50px;
+  width: 20%;
+  float: left;
+
+
+}
+
+.basic-font-for-mobile{
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+}
+#notification{
+
+  font-size:24px;
+  padding:20px;
+  color:#fff;
+  background-color:#ee9600;
+  border: 2px solid #333;
+  box-shadow: 5px 10px #888888;
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 100%;
+  overflow: auto;
+  line-height: 1.7em
+}
