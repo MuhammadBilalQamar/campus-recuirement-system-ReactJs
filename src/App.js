@@ -13,12 +13,8 @@ import CompanyDashboard from './components/companydashboard';
 // firebase.initializeApp(FirebaseConfig);
 // const databaseRef = firebase.database().ref();
 let config = {
-  apiKey: "AIzaSyD8GjpkQiy2g4gNyF6g-VkvHlr_h3YnLIY",
-  authDomain: "cm-system-c3a39.firebaseapp.com",
-  databaseURL: "https://cm-system-c3a39.firebaseio.com",
-  projectId: "cm-system-c3a39",
-  storageBucket: "",
-  messagingSenderId: "716981845548"
+ //ENTER YOUR SCRIPT HERE
+  
 };
 firebase.initializeApp(config);
 
